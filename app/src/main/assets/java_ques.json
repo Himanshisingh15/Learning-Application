@@ -1,0 +1,140 @@
+[
+  {
+    "serial_no": 1,
+    "question": "What is Java?",
+    "answer": "Java is a popular, high-level, and object-oriented programming language known for its platform independence. It is used for a wide range of applications, including web development, mobile app development, and more.",
+    "read_more_url": "https://www.oracle.com/java/",
+    "image_url": "https://example.com/java_logo.png",
+    "is_html": true
+  },
+  {
+    "serial_no": 2,
+    "question": "What are the key features of Java?",
+    "answer": "Java boasts features such as platform independence, object-oriented programming, strong memory management, and a large standard library, among others.",
+    "read_more_url": "https://www.oracle.com/java/technologies/",
+    "is_html": true,
+    "image_url" : ""
+  },
+  {
+    "serial_no": 3,
+    "question": "How do you declare a variable in Java?",
+    "answer": "In Java, you declare a variable using a data type followed by a name. You can also initialize the variable at the time of declaration.",
+    "read_more_url": "https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html",
+    "is_html": true,
+    "image_url" : ""
+  },
+  {
+    "serial_no": 4,
+    "question": "What is the role of the 'public static void main(String[] args)' method in Java?",
+    "answer": "The 'public static void main(String[] args)' method is the entry point of a Java program. It's where program execution begins.",
+    "read_more_url": "https://docs.oracle.com/javase/tutorial/getStarted/application/index.html",
+    "is_html": true,
+    "image_url" : ""
+  },
+  {
+    "serial_no": 5,
+    "question": "What is object-oriented programming (OOP) in Java?",
+    "answer": "Object-oriented programming is a programming paradigm in which software is structured around objects, which are instances of classes. Java is an object-oriented language.",
+    "read_more_url": "https://docs.oracle.com/javase/tutorial/java/concepts/index.html",
+    "is_html": true,
+    "image_url" : ""
+  },
+  {
+    "serial_no": 6,
+    "question": "Java vs. C++: What are the differences and similarities?",
+    "answer": "Java and C++ are both powerful programming languages, but they differ in areas like memory management, platform independence, and more. This question explores their key distinctions.",
+    "read_more_url": "https://www.geeksforgeeks.org/difference-between-java-and-c-c/",
+    "is_html": true,
+    "image_url" : ""
+  },
+  {
+    "serial_no": 7,
+    "question": "What is Java Serialization, and how is it used to store and retrieve objects?",
+    "answer": "Java Serialization is a mechanism for converting Java objects into a stream of bytes. It is used for storing and transmitting objects between different Java applications.",
+    "read_more_url": "https://docs.oracle.com/javase/tutorial/jndi/objects/serial.html",
+    "is_html": true,
+    "image_url" : ""
+  },
+  {
+    "serial_no": 8,
+    "question": "What is the 'equals' method in Java, and how is it used to compare objects?",
+    "answer": "The 'equals' method is used to compare objects for equality. It can be overridden to provide custom comparison logic for user-defined classes.",
+    "read_more_url": "https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-",
+    "is_html": true,
+    "image_url" : ""
+  },
+  {
+    "serial_no": 9,
+    "question": "What are the Java Collections Framework and its key interfaces?",
+    "answer": "The Java Collections Framework is a set of classes and interfaces that provide data structures for managing collections of objects. Key interfaces include List, Set, and Map.",
+    "read_more_url": "https://docs.oracle.com/javase/tutorial/collections/interfaces/index.html",
+    "image_url": "https://example.com/java_collections.png",
+    "is_html": true
+  },
+  {
+    "serial_no": 10,
+    "question": "What is exception handling in Java?",
+    "answer": "Exception handling in Java is a mechanism to deal with runtime errors. Java provides try-catch blocks for handling exceptions, enabling graceful error recovery.",
+    "read_more_url": "https://docs.oracle.com/javase/tutorial/essential/exceptions/index.html",
+    "is_html": true,
+    "image_url" : ""
+  },
+  {
+    "serial_no": 11,
+    "question": "What are Java Streams and how are they used?",
+    "answer": "Java Streams are a powerful feature for processing sequences of data. They provide a concise and functional approach to data manipulation.",
+    "read_more_url": "https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html",
+    "is_html": true,
+    "image_url" : ""
+  },
+  {
+    "serial_no": 12,
+    "question": "What is Java's multithreading support?",
+    "answer": "Java offers built-in support for multithreading, allowing concurrent execution of code. You can create and manage threads using Java's Thread class or the Executor framework.",
+    "read_more_url": "https://docs.oracle.com/javase/tutorial/essential/concurrency/",
+    "is_html": true,
+    "image_url" : ""
+  },
+  {
+    "serial_no": 13,
+    "question": "What is the role of the Java Virtual Machine (JVM) in Java applications?",
+    "answer": "The JVM is responsible for executing Java bytecode. It provides platform independence by running Java programs on different operating systems.",
+    "read_more_url": "https://docs.oracle.com/javase/specs/jvms/se8/html/index.html",
+    "is_html": true,
+    "image_url" : ""
+  },
+  {
+    "serial_no": 14,
+    "question": "JavaFX vs. Swing: Which one is better for building graphical user interfaces in Java?",
+    "answer": "JavaFX and Swing are both used for creating GUI applications in Java. This question explores the differences between these two libraries.",
+    "read_more_url": "https://docs.oracle.com/javafx/2/overview/jfxpub-overview.htm",
+    "is_html": true,
+    "image_url" : ""
+  },
+  {
+    "serial_no": 17,
+    "question": "What is the Java Database Connectivity (JDBC) API, and how is it used to connect to databases?",
+    "answer": "The JDBC API is used to connect to relational databases from Java applications. It provides a standardized way to interact with databases through SQL queries.",
+    "read_more_url": "https://docs.oracle.com/javase/tutorial/jdbc/index.html",
+    "is_html": true,
+    "image_url" : ""
+  },
+  {
+    "serial_no": 18,
+    "question": "What is the concept of inheritance in Java?",
+    "answer": "Inheritance is a key concept in object-oriented programming. It allows a class to inherit properties and methods from another class, promoting code reuse and hierarchy.",
+    "read_more_url": "https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html",
+    "is_html": true,
+    "image_url" : ""
+  },
+  {
+    "serial_no": 19,
+    "question": "What are Java annotations and how are they used?",
+    "answer": "Java annotations are metadata that can be added to Java code. They are used for various purposes, including marking classes and methods for specific actions or configurations.",
+    "read_more_url": "https://docs.oracle.com/javase/tutorial/java/annotations/",
+    "is_html": true,
+    "image_url" : ""
+  }
+]
+
+

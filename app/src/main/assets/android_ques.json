@@ -1,0 +1,122 @@
+[
+ {
+   "serial_no" : 1,
+   "question" : "What is Android?",
+   "answer" : "Android is a linux based and open source operating system",
+   "is_html" : false,
+   "read_more_url" : "",
+   "image_url" : ""
+ },
+ {
+   "serial_no" : 2,
+   "question" : "What is Activity?",
+   "answer" : "Activity is a combination of kotlin file and xml file",
+   "is_html" : false,
+   "read_more_url" : "https://developer.android.com/guide/components/activities/intro-activities",
+   "image_url" : ""
+ },
+ {
+   "serial_no" : 3,
+   "question" : "What is Activity LifeCycle?",
+   "answer" : "As a user navigates through, out of, and back to your app, the Activity instances in your app transition through different states in their lifecycle. The Activity class provides a number of callbacks that let the activity know when a state changes or that the system is creating, stopping, or resuming an activity or destroying the process the activity resides in.",
+   "is_html" : false,
+   "read_more_url" : "",
+   "image_url" : "https://developer.android.com/guide/components/images/activity_lifecycle.png"
+ },
+ {
+   "serial_no" : 4,
+   "question" : "What is Android Architecture?",
+   "answer" : "Android is a linux based and open source operating system",
+   "is_html" : false,
+   "read_more_url" : "",
+   "image_url" : "https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/440/original/Android_Architecture.png?1621313238"
+ },
+  {
+   "serial_no" : 5,
+   "question" : "What is Google Android SDK? Which are the tools placed in Android SDK?",
+   "answer" : "The Google Android SDK is a toolset used by developers to write applications on Android-enabled devices. \nThe tools placed in Android SDK are given below: \n Android Emulator - Android Emulator is a software application that simulates Android devices on your computer so that you can test the application on a variety of devices and Android API levels without having each physical device. \n DDMS(Dalvik Debug Monitoring Services) - It is a debugging tool from the Android software development kit (SDK) which provides services like message formation, call spoofing, capturing screenshots, etc. \n ADB(Android Debug Bridge) - It is a command-line tool used to allow and control communication with the emulator instance. \n AAPT(Android Asset Packaging Tool) - It is a build tool that gives the ability to developers to view, create, and update ZIP-compatible archives (zip, jar, and apk).",
+   "is_html" : false,
+   "read_more_url" : "",
+   "image_url" : ""
+ },
+  {
+   "serial_no" : 6,
+   "question" : "What is AAPT?",
+   "answer" : "AAPT stands for Android Asset Packaging Tool. It is a build tool that gives the ability to developers to view, create, and update ZIP-compatible archives (zip, jar, and apk). It parses, indexes, and compiles the resources into a binary format that is optimized for the platform of Android.",
+   "is_html" : false,
+   "read_more_url" : "",
+   "image_url" : ""
+ },
+  {
+   "serial_no" : 7,
+   "question" : "What is an intent?",
+   "answer" : "An intent is a messaging object that is used to request an action from other components of an application. It can also be used to launch an activity, send SMS, send an email, display a web page, etc. \nIt shows notification messages to the user from within an Android-enabled device. It alerts the user of a particular state that occurred. There are two types of intents in Android: \n\nImplicit Intent- Used to invoke the system components. \nExplicit Intent- Used to invoke the activity class.",
+   "is_html" : false,
+   "read_more_url" : "",
+   "image_url" : "https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/443/original/Types_Of_Intents.jpg?1621315115"
+ },
+  {
+   "serial_no" : 8,
+   "question" : "What is context?",
+   "answer" : "The context in Android is the context of the current state of the application or object. The context comes with services like giving access to databases and preferences, resolving resources, and more. \nThere are two types of context. They are: \n\nActivity context \nThis activity context is attached to the lifecycle of an activity. \nThe activity context can be used when you are passing the context in the scope of an activity or you need the context whose lifecycle is attached to the context of the activity. \nApplication context: \n\nThis application context is attached to the lifecycle of an application. \nThe application context should be used where you need a context whose lifecycle is separate from the current context or when you are passing a context beyond the scope of activity.",
+   "is_html" : false,
+   "read_more_url" : "",
+   "image_url" : "https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/444/original/Types_Of_Context.png?1621315421"
+ },
+  {
+   "serial_no" : 9,
+   "question" : "Explain different launch modes in Android.",
+   "answer" : "The different launch modes in Android are given below: \n\nStandard: \n\nThis launch mode generates an activity’s new instance in the task from which it originated. \nIt is possible to create several instances for the same activity. \nFor Example, suppose our current stack is A -> B -> C. Now, if we launch activity B again with the “standard” launch mode, then the new stack will be A -> B -> C -> B. \n\nSingleTop: \n\nThis launch mode is similar to the Standard launch mode except if there exists an activity’s previous instance on the top of the stack, then a new instance will not be created. \nBut the intent will be sent to the activity’s existing instance. \nFor example, suppose our current stack is A -> B -> C. Now, if we launch the activity B again with “singleTop” launch mode,then the new stack will be A -> B -> C -> B. \nConsider another example, where the current stack is A -> B -> C. Now, if we launch activity C again with the “singleTop” launch mode, then the stack will remain the same i.e., A -> B -> C. The intent will be passed to the onNewIntent() method. \n\nSingleTask: \n\nThis launch mode will create a new task and push a new instance to the task as the root. \nFor example, suppose our current stack is A -> B -> C -> D. Now, if we launch activity B again with the “singleTask” launch mode, then the new stack will be A -> B. Here, a callback has been received on the old instance and C and D activities are destroyed. \nSingleInstance: \n\nThis launch mode is similar to the SingleTask launch mode. But the system doesn’t support launching any new activities in the same task. \nIn a situation where the new activity is launched, it is launched in a separate task. \nFor example, Suppose our current stack is A -> B -> C. Now, if we launch the activity D with the “singleInstance” launch mode, then there will be two stacks: \nA -> B -> C \nD, If you call activity E, then it will be added to the first stack. \nA -> B -> C -> E \nD \nAgain if you Call the activity D, then it will call the same activity from the 2nd stack and pass the intent to onNewIntent().",
+   "is_html" : false,
+   "read_more_url" : "",
+   "image_url" : ""
+ },
+  {
+   "serial_no" : 10,
+   "question" : "What is Fragments?",
+   "answer" : "A Fragment represents a reusable portion of your app's UI. A fragment defines and manages its own layout, has its own lifecycle, and can handle its own input events. Fragments can't live on their own. They must be hosted by an activity or another fragment. The fragment’s view hierarchy becomes part of, or attaches to, the host’s view hierarchy.",
+   "is_html" : true,
+   "read_more_url" : "https://developer.android.com/guide/fragments",
+   "image_url" : "https://developer.android.com/static/images/guide/fragments/fragment-screen-sizes.png"
+ },
+  {
+   "serial_no" : 11,
+   "question" : "What is Kotlin Coroutine on Android?",
+   "answer" : "The Kotlin team defines coroutines as “lightweight threads”. They are sort of tasks that the actual threads can execute. Kotlin coroutines introduce a new style of concurrency that can be used on Android to simplify async code. The official documentation says that coroutines are lightweight threads. By lightweight, it means that creating coroutines doesn’t allocate new threads. Instead, they use predefined thread pools and smart scheduling for the purpose of which task to execute next and which tasks later.",
+   "is_html" : true,
+   "read_more_url" : "https://www.geeksforgeeks.org/kotlin-coroutines-on-android/",
+   "image_url" : ""
+ },
+{
+   "serial_no" : 12,
+   "question" : "What’s Jetpack Compose and its Benefits?",
+   "answer" : "Jetpack Compose is a modern UI toolkit recently launched by Google which is used for building native Android UI. It simplifies and accelerates the UI development with less code, Kotlin APIs, and powerful tools",
+   "is_html" : true,
+   "read_more_url" : "https://www.geeksforgeeks.org/basics-of-jetpack-compose-in-android/",
+   "image_url" : ""
+ },
+ {
+   "serial_no" : 13,
+   "question" : "What is MVVM?",
+   "answer" : "Model — View — ViewModel (MVVM) is the industry-recognized software architecture pattern that overcomes all drawbacks of MVP and MVC design patterns. MVVM suggests separating the data presentation logic(Views or UI) from the core business logic part of the application. ",
+   "is_html" : true,
+   "read_more_url" : "https://developer.android.com/topic/libraries/architecture/viewmodel?gclid=EAIaIQobChMI8baoh6WTggMVjYRLBR381wgVEAAYASAAEgINMPD_BwE&gclsrc=aw.ds",
+   "image_url" : ""
+ },
+ {
+   "serial_no" : 14,
+   "question" : "What is Fragment Lifecycle?",
+   "answer" : "Each Fragment instance has its own lifecycle. When a user navigates and interacts with your app, your fragments transition through various states in their lifecycle as they are added, removed, and enter or exit the screen.",
+   "is_html" : true,
+   "read_more_url" : "https://developer.android.com/guide/fragments/lifecycle",
+   "image_url" : "https://developer.android.com/static/images/guide/fragments/fragment-view-lifecycle.png"
+ },
+ {
+   "serial_no" : 15,
+   "question" : "Difference Between View and ViewGroup in Android",
+   "answer" : "In Android Layout is used to describe the user interface for an app or activity, and it stores the UI elements that will be visible to the user. An android app’s user interface is made up of a series of View and ViewGroup elements. ",
+   "is_html" : true,
+   "read_more_url" : "https://www.geeksforgeeks.org/difference-between-view-and-viewgroup-in-android/",
+   "image_url" : "https://media.geeksforgeeks.org/wp-content/uploads/20210315121319/View.png"
+ }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "serial_no" : 1,
+    "question": "What is Kotlin?",
+    "answer": "Kotlin is a statically-typed programming language developed by JetBrains. It's designed to be fully interoperable with Java and offers concise and expressive syntax.",
+    "read_more_url": "https://kotlinlang.org/",
+    "is_html": false,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 2,
+    "question": "What are the main features of Kotlin?",
+    "answer": "Some of the main features of Kotlin include null safety, extension functions, data classes, smart casts, and more. It also has first-class support for functional programming.",
+    "read_more_url": "https://kotlinlang.org/docs/reference/",
+    "is_html": false,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 3,
+    "question": "How do you declare a variable in Kotlin?",
+    "answer": "In Kotlin, you can declare a variable using the 'val' keyword for read-only (immutable) variables or the 'var' keyword for mutable variables.",
+    "read_more_url": "https://kotlinlang.org/docs/reference/properties.html",
+    "is_html": false,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 4,
+    "question": "What is the 'if' expression in Kotlin?",
+    "answer": "The 'if' statement in Kotlin is also an expression, which means it can return a value. It can be used to perform conditional branching and return a result based on the condition.",
+    "read_more_url": "https://kotlinlang.org/docs/reference/control-flow.html#if-expression",
+    "is_html": false,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 5,
+    "question": "What is an extension function in Kotlin?",
+    "answer": "An extension function in Kotlin allows you to add new functions to existing classes without modifying their source code. This is useful for enhancing the functionality of classes.",
+    "read_more_url": "https://kotlinlang.org/docs/reference/extensions.html",
+    "is_html": false,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 6,
+    "question": "Why should I choose Kotlin over Java?",
+    "answer": "Kotlin offers many modern features and a more concise syntax compared to Java. It also provides better null safety and is fully interoperable with Java. Kotlin is a great choice for Android development.",
+    "read_more_url": "https://developer.android.com/kotlin",
+    "is_html": false,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 7,
+    "question": "Kotlin vs. Java: Which one is better for Android development?",
+    "answer": "Kotlin has become the preferred language for Android app development due to its modern features and enhanced productivity. However, Java is still widely used in existing Android projects.",
+    "read_more_url": "https://developer.android.com/kotlin",
+    "is_html": false,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 8,
+    "question": "What is a primary constructor in Kotlin?",
+    "answer": "In Kotlin, the primary constructor is defined directly in the class header. It allows you to specify properties for the class and initialize them. You can also define default parameter values.",
+    "read_more_url": "https://kotlinlang.org/docs/classes.html#constructors",
+    "is_html": true,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 9,
+    "question": "What is a secondary constructor in Kotlin?",
+    "answer": "In Kotlin, secondary constructors are used to create additional constructors for a class. They are defined using the 'constructor' keyword and must call the primary constructor using the 'this' keyword.",
+    "read_more_url": "https://kotlinlang.org/docs/classes.html#secondary-constructors",
+    "is_html": true,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 10,
+    "question": "What is the 'when' expression in Kotlin?",
+    "answer": "The 'when' expression in Kotlin is similar to a 'switch' statement in other languages. It allows you to test a value against multiple conditions and execute code based on the first matching condition.",
+    "read_more_url": "https://kotlinlang.org/docs/reference/control-flow.html#when-expression",
+    "is_html": true,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 11,
+    "question": "How does Kotlin handle null safety?",
+    "answer": "Kotlin provides null safety features to reduce the risk of null pointer exceptions. Variables are declared as nullable or non-nullable, and you must explicitly handle null values.",
+    "read_more_url": "https://kotlinlang.org/docs/reference/null-safety.html",
+    "is_html": true,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 12,
+    "question": "What is Kotlin's approach to functional programming?",
+    "answer": "Kotlin provides first-class support for functional programming concepts like higher-order functions, lambda expressions, and immutable data. This makes it easy to write functional-style code in Kotlin.",
+    "read_more_url": "https://kotlinlang.org/docs/reference/lambdas.html",
+    "is_html": true,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 13,
+    "question": "Kotlin Coroutines",
+    "answer": "Kotlin Coroutines are a powerful feature for handling asynchronous and concurrent programming. They make it easier to write asynchronous code that is both efficient and readable.",
+    "read_more_url": "https://kotlinlang.org/docs/coroutines-overview.html",
+    "is_html": true,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 14,
+    "question": "Kotlin vs. Java for server-side development",
+    "answer": "Kotlin is gaining popularity for server-side development due to its conciseness and expressiveness. It can be used with frameworks like Spring Boot for building efficient server-side applications.",
+    "read_more_url": "https://spring.io/guides/tutorials/spring-boot-kotlin/",
+    "is_html": true,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 15,
+    "question": "What is a Kotlin extension property?",
+    "answer": "A Kotlin extension property allows you to add new properties to existing classes without modifying their source code. This is a convenient way to extend the functionality of classes.",
+    "read_more_url": "https://kotlinlang.org/docs/reference/extensions.html#extension-properties",
+    "is_html": true,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 16,
+    "question": "What is a data class in Kotlin?",
+    "answer": "In Kotlin, a data class is a class specifically designed for storing data. The compiler automatically generates useful methods like 'equals,' 'hashCode,' and 'toString' for data classes.",
+    "read_more_url": "https://kotlinlang.org/docs/reference/data-classes.html",
+    "is_html": true,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 17,
+    "question": "How does Kotlin handle collections and iterators?",
+    "answer": "Kotlin provides a rich set of collection and iterator operations, including filter, map, reduce, and more. These operations make working with collections more concise and readable.",
+    "read_more_url": "https://kotlinlang.org/docs/reference/collection-transformations.html",
+    "is_html": true,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 18,
+    "question": "What is a sealed class in Kotlin?",
+    "answer": "A sealed class is a class that restricts inheritance to a fixed set of subclasses. It's commonly used to represent restricted hierarchies in a type-safe manner.",
+    "read_more_url": "https://kotlinlang.org/docs/reference/sealed-classes.html",
+    "is_html": true,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 19,
+    "question": "What are the advantages of using Kotlin for Android app development?",
+    "answer": "Kotlin offers concise syntax, enhanced null safety, improved code readability, and better support for functional programming, making it an excellent choice for Android app development.",
+    "read_more_url": "https://developer.android.com/kotlin",
+    "is_html": true,
+    "img_url" : ""
+  },
+  {
+    "serial_no" : 20,
+    "question": "How does Kotlin support multiplatform development?",
+    "answer": "Kotlin Multiplatform allows you to write code that can be shared between different platforms, such as Android, iOS, and the web. It's a powerful solution for cross-platform development.",
+    "read_more_url": "https://kotlinlang.org/docs/multiplatform.html",
+    "is_html": true,
+    "img_url" : ""
+  }
+]
